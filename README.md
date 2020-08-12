@@ -1,16 +1,19 @@
-Установка 
-============
+# WikFormConstructorBundle
+Кастомные формы и их конструктор. 
+
+## Установка 
 
 ### Шаг 1: Загрузка бандла
 
 ```console
-$ git clone
+$ cd {your_project_directory}/bundles/
+$ git clone https://github.com/ciberstrigo/WikiFormConstructorBundle.git
 ```
 
 ### Шаг 2: Подключение бандла
 
-Then, enable the bundle by adding it to the list of registered bundles
-in the `config/bundles.php` file of your project:
+Подключить бандл, добавив в список зарегистрированных пакетов 
+в `config/bundles.php` вашего проекта:
 
 ```php
 // config/bundles.php
@@ -36,3 +39,6 @@ wiki_form_construction_bundle_annotations:
 
 Все Entity внутри бандла объявлены c `@MappedSuperclass` аннотацией.   
 https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/reference/inheritance-mapping.html
+
+## API методы
+

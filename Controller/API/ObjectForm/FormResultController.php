@@ -46,7 +46,7 @@ class FormResultController extends AbstractController
     /**
      * @Route(
      *     path="/api/form_results/{id}",
-     *     name="form_result_edit",
+     *     name="wiki_form_constructor_form_result_edit",
      *     methods={"GET"}
      *     )
      * @param FormResult          $formResult

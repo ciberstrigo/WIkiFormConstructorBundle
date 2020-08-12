@@ -62,7 +62,7 @@ class ObjectFormController extends AbstractController
     /**
      * @Route(
      *     path="/api/forms",
-     *     name="api_forms_list",
+     *     name="wiki_form_constructor_api_forms_list",
      *     methods={"GET"}
      *     )
      *
@@ -88,7 +88,7 @@ class ObjectFormController extends AbstractController
     /**
      * @Route(
      *     path="/api/forms",
-     *     name="forms_create",
+     *     name="wiki_form_constructor_forms_create",
      *     methods={"POST"}
      *     )
      *
@@ -139,7 +139,7 @@ class ObjectFormController extends AbstractController
     /**
      * @Route(
      *     path="/api/forms/{id}",
-     *     name="forms_update",
+     *     name="wiki_form_constructor_forms_update",
      *     methods={"PUT"}
      *     )
      *
@@ -195,11 +195,11 @@ class ObjectFormController extends AbstractController
     /**
      *
      * @Route("/api/forms/{id}", methods={"GET"},
-     *     name="api_form_get",
+     *     name="wiki_form_constructor_api_form_get",
      *     )
      *
      * @Route("/api/public/{id}", methods={"GET"},
-     *     name="public_api_form_get",
+     *     name="wiki_form_constructor_public_api_form_get",
      *     )
      * @param ObjectForm          $form
      * @param NormalizerInterface $normalizer
@@ -219,11 +219,11 @@ class ObjectFormController extends AbstractController
     /**
      *
      * @Route("/api/forms/get_by_alias/{alias}/versions", methods={"GET"},
-     *     name="get_versions",
+     *     name="wiki_form_constructor_get_versions",
      *     )
      *
      * @Route("/api/public/forms/get_by_alias/{alias}/versions", methods={"GET"},
-     *     name="public_get_versions",
+     *     name="wiki_form_constructor_public_get_versions",
      *     )
      * @param                     $alias
      * @param NormalizerInterface $normalizer
@@ -250,13 +250,13 @@ class ObjectFormController extends AbstractController
     /**
      * @Route(
      *     path="/api/forms/get_by_alias/{alias}",
-     *     name="forms_alias_detail",
+     *     name="wiki_form_constructor_forms_alias_detail",
      *     methods={"GET"}
      *     )
      *
      * @Route(
      *     path="/api/public/forms/get_by_alias/{alias}",
-     *     name="public_forms_alias_detail",
+     *     name="wiki_form_constructor_public_forms_alias_detail",
      *     methods={"GET"}
      *    )
      * @param Request             $request
@@ -308,9 +308,9 @@ class ObjectFormController extends AbstractController
 
 
     /**
-     * @Route("/api/forms/{id}/send", name="api_form_send_data", methods={"POST"})
+     * @Route("/api/forms/{id}/send", name="wiki_form_constructor_api_form_send_data", methods={"POST"})
      *
-     * @Route("/api/public/forms/{id}/send", name="api_public_form_send_data", methods={"POST"})
+     * @Route("/api/public/forms/{id}/send", name="wiki_form_constructor_api_public_form_send_data", methods={"POST"})
      *
      * @param Request                     $request
      * @param ObjectForm                  $form
@@ -358,7 +358,7 @@ class ObjectFormController extends AbstractController
      * @Route(
      *     path="/api/forms/{id}/remove",
      *     methods={"GET"},
-     *     name="api_forms_delete"
+     *     name="wiki_form_constructor_api_forms_delete"
      * )
      * @param ObjectForm $form
      *
