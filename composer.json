@@ -1,0 +1,23 @@
+{
+  "name": "wiki/WikiFormConstructorBundle",
+  "description": "Form constructor bundle",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "user",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "doctrine/annotations": "^1.0",
+    "doctrine/doctrine-bundle": "^2.1",
+    "doctrine/doctrine-migrations-bundle": "^3.0",
+    "doctrine/orm": "^2.7",
+    "ramsey/uuid-doctrine": "^1.6",
+    "symfony/framework-bundle": "5.1.*",
+    "symfony/http-client": "5.1.*",
+    "symfony/http-foundation": "5.1.*"
+  }
+}

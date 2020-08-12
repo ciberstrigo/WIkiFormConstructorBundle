@@ -1,0 +1,29 @@
+services:
+
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  WikiFormConstructorBundle\Controller\API\ObjectForm\FormResultController:
+    public: true
+    autowire: true
+
+  WikiFormConstructorBundle\Controller\API\ObjectForm\ObjectFormController:
+    public: true
+    autowire: true
+
+  WikiFormConstructorBundle\DTO\Assemblers\FormDataAssembler:
+    public: true
+    autowire: true
+
+  WikiFormConstructorBundle\DTO\Assemblers\FormDataResultAssembler:
+    public: true
+    autowire: true
+
+  WikiFormConstructorBundle\Services\Forms\Validation\FormFieldValidator:
+    public: true
+    autowire: true
+
+  WikiFormConstructorBundle\Services\Forms\Validation\ValidationClassManager:
+    public: true
+    autowire: true
