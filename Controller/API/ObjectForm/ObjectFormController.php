@@ -79,7 +79,7 @@ class ObjectFormController extends AbstractController
     public function getForms(Request $request, NormalizerInterface $normalizer)
     {
         $qb    = $this->em->getRepository(ObjectForm::class)->getAllQueryBuilder();
-        $forms = $normalizer->normalize($qb, 'json', [ 'groups' => [ 'forms_list' ] ]);
+        $forms = $normalizer->normalize($qb->getQuery()->getResult(), 'json', [ 'groups' => [ 'forms_list' ] ]);
 
         return SuccessJsonResponse::make($forms);
     }
