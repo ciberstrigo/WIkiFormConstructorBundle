@@ -42,3 +42,12 @@ https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/reference/inherita
 
 ## API методы
 
+* [Get all created forms](apidoc/get-api-forms.md) : `GET /api/forms` or `GET /api/public/forms`
+* [Create new form](apidoc/post-api-forms.md) : `POST /api/forms` or `POST /api/public/forms`
+* [Update form](apidoc/put-api-forms-id.md) : `PUT /api/forms/{id}`   
+* [Get form by id](apidoc/get-api-forms-id.md) : `GET /api/forms/{id}` or `GET /api/public/{id}`   
+* [Get form version by id](apidoc/get-api-forms-getbyalias-alias-versions.md): `GET /api/forms/get_by_alias/{alias}/versions` or `GET /api/public/forms/get_by_alias/{alias}/versions`
+* [Get form by alias](apidoc/get-api-forms-getbyalias-alias.md): `GET /api/forms/get_by_alias/{alias}` or `GET /api/public/forms/get_by_alias/{alias}`
+* [Submit form](apidoc/post-api-forms-id-send.md): `POST /api/forms/{id}/send` or `POST /api/public/forms/{id}/send`  
+* [Remove form](apidoc/get-api-forms-id-remove.md): `GET /api/forms/{id}/remove`
+* [Get a special case of the completed form](apidoc/get-api-form-results-id.md) `GET /api/form_results/{id}`
