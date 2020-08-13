@@ -1,4 +1,4 @@
-[**<= Back to API**](README.md)
+[**<= Back to API**](../README.md)
 
 # Get a special case of the completed form
 Get data from the completed form

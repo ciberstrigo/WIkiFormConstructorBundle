@@ -1,4 +1,4 @@
-[**<= Back to API**](README.md)
+[**<= Back to API**](../README.md)
 
 # Get form version by alias
 Get form version and additional information by alias  

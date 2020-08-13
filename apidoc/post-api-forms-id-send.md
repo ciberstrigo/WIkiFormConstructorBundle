@@ -1,4 +1,4 @@
-[**<= Back to API**](README.md)
+[**<= Back to API**](../README.md)
 
 # Submit form
 Submit form
